@@ -1,34 +1,34 @@
 [
     {
       "id": 1,
-      "name": "Nikola Jokić",
+      "name": "Eddy",
       "phone": "(720) 555-1212",
       "address": {
         "street": "2000 16th Street",
         "city": "Denver",
-        "state": "CO",
+        "province": "CO",
         "zip": "80202"
       }
     },
     {
       "id": 2,
-      "name": "Jamal Murray",
+      "name": "Gary",
       "phone": "(303) 321-8765",
       "address": {
         "street": "2654 Washington Street",
         "city": "Lakewood",
-        "state": "CO",
+        "province": "CO",
         "zip": "80568"
       }
     },
     {
       "id": 3,
-      "name": "Gary Harris",
+      "name": "Mark",
       "phone": "(303) 323-1233",
       "address": {
         "street": "99 Westside Way",
         "city": "Breckenridge",
-        "state": "CO",
+        "province": "CO",
         "zip": "82210"
       }
     }

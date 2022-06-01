@@ -26,19 +26,32 @@ export class SearchService {
   getAll(){
     return this.http.get('assets/data/people.json');
   }
+
+  get(id: number) {
+    return this.getAll().pipe(map((all: any) => {
+      if (localStorage['person' + id]) {
+        return JSON.parse(localStorage['person' + id]);
+      }
+      return all.find(e => e.id === id);
+    }));
+  }
+  
+  save(person: Person) {
+    localStorage['person' + person.id] = JSON.stringify(person);
+  }
 }
   
 
 export class Address {
   street: string;
   city: string;
-  state: string;
+  province: string;
   zip: string;
 
   constructor(obj?: any) {
     this.street = obj && obj.street || null;
     this.city = obj && obj.city || null;
-    this.state = obj && obj.state || null;
+    this.province = obj && obj.province || null;
     this.zip = obj && obj.zip || null;
   }
 }
