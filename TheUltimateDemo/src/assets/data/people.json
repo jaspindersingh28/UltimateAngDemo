@@ -2,34 +2,34 @@
     {
       "id": 1,
       "name": "Eddy",
-      "phone": "(720) 555-1212",
+      "phone": "(709) 555-1212",
       "address": {
-        "street": "2000 16th Street",
-        "city": "Denver",
-        "province": "CO",
-        "zip": "80202"
+        "street": "301 Water Street",
+        "city": "St. John's",
+        "province": "NL",
+        "zip": "A1C 1K3"
       }
     },
     {
       "id": 2,
       "name": "Gary",
-      "phone": "(303) 321-8765",
+      "phone": "(709) 321-8765",
       "address": {
-        "street": "2654 Washington Street",
-        "city": "Lakewood",
-        "province": "CO",
-        "zip": "80568"
+        "street": "204 Battery Road",
+        "city": "St. John's",
+        "province": "NL",
+        "zip": "A1C 1K3"
       }
     },
     {
       "id": 3,
       "name": "Mark",
-      "phone": "(303) 323-1233",
+      "phone": "(709) 323-1233",
       "address": {
         "street": "99 Westside Way",
-        "city": "Breckenridge",
-        "province": "CO",
-        "zip": "82210"
+        "city": "Mount Pearl",
+        "province": "NL",
+        "zip": "A1C 1Z9"
       }
     }
   ]
